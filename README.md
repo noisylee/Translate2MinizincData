@@ -10,5 +10,6 @@
 * 在Translate2MinizincData.jar所在的目录下（假定在D:/），执行`java -jar D:/Translate2MinizincData.jar test.txt`，（注意这里的jar文件需求绝对路径）其中test.txt是输入描述文件，如果不使用这一参数那么可以在命令行中输入（以CTRL+z结束）。这样能得到一个Translator.java文件。
 * 执行`javac -cp .;Translate2MinizincData.jar Translator.java`
 * 执行`java -cp .;Translate2MinizincData.jar Translator testdata.txt`，其中testdata.txt是题目的输入数据文件（暂不支持命令行输入），将会得到一个testdata.dzn文件。
+test.txt和testdata.txt是附上的样例。
 ## 说明
 目前阶段支持的语法还十分简单，对于一些输入可能还无法处理，后续会有更新。
