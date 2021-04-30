@@ -1,1 +1,2 @@
 # Translate2MinizincData
+这个工具的用途是通过描述输入格式(这里主要面对的是NOIP的题目输入)生成一个Translator，它可以将输入数据转为适用于Minizinc的输入文件。
